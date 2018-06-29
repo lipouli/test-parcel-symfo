@@ -20,7 +20,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/{slug}", name="home", requirements={"slug"="(.+)?"})
+     * @Route("/{slug}", name="home", requirements={"slug"=".*"})
      */
     public function index()
     {
