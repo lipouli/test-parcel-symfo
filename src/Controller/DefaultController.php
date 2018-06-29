@@ -24,6 +24,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
+        // parceque je n'aime pas utiliser un bundle (twig) pour ne l'utiliser qu'une seul fois (ici).
         require('build/index.html');
         exit;
     }
