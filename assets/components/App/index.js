@@ -16,7 +16,7 @@ class App extends React.Component {
     axios.get('/data')
       .then(({ data }) => {
         const arrayData = Object.keys(data);
-        const dataData = arrayData.map( element => <p key={data[element]}>{data[element]}</p>);
+        const dataData = arrayData.map(element => <p key={data[element]}>{data[element]}</p>);
         this.setState({
           toc: dataData,
         })
