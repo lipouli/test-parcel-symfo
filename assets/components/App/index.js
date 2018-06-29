@@ -19,7 +19,7 @@ class App extends React.Component {
         const dataData = arrayData.map(element => <p key={data[element]}>{data[element]}</p>);
         this.setState({
           toc: dataData,
-        })
+        });
       });
   }
 
