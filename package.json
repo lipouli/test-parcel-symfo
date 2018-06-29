@@ -36,7 +36,7 @@
     "redux": "^4.0.0"
   },
   "scripts": {
-    "start": "parcel assets/index.html -d public/build --public-url ./build/.",
+    "start": "parcel assets/index.html -d public/build --public-url /build/.",
     "clean": "rm -rf .cache dist",
     "watch": "yarn clean && yarn start"
   }
