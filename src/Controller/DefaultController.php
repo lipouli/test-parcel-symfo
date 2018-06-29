@@ -24,6 +24,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
-        return $this->render('index.html');
+        require('build/index.html');
+        exit;
     }
 }
